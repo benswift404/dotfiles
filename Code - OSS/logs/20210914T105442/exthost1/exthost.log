@@ -1,0 +1,37 @@
+[2021-09-14 10:54:45.260] [exthost] [info] extension host started
+[2021-09-14 10:54:45.300] [exthost] [info] Lock '/home/ben/.config/Code - OSS/User/workspaceStorage/24a486e518795aa78b50f3bef6bd1d33/vscode.lock': Lock acquired.
+[2021-09-14 10:54:45.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-14 10:54:45.558] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-09-14 10:54:45.561] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-14 10:54:45.561] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-09-14 10:54:45.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-14 10:54:45.705] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-09-14 10:54:45.768] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-14 10:54:45.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-14 10:54:45.903] [exthost] [info] eager extensions activated
+[2021-09-14 10:54:45.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-14 10:54:45.971] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-14 10:54:45.976] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-14 10:54:45.976] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-14 10:54:45.978] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-09-14 10:54:45.978] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-09-14 11:04:21.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-14 11:04:21.958] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-09-14 11:04:21.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-14 11:04:21.962] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-09-14 11:04:21.982] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-14 11:04:21.982] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-09-14 11:52:56.851] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-14 11:52:56.851] [exthost] [info] Lock '/home/ben/.config/Code - OSS/User/workspaceStorage/24a486e518795aa78b50f3bef6bd1d33/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-14 11:52:56.878] [exthost] [error] ProxyResolver#resolveProxy Canceled: Canceled
+	at Object.i [as canceled] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at u._remoteCall (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9349)
+	at D.resolveProxy (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:36547)
+	at Object.resolveProxy (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:57068)
+	at useProxySettings (/usr/lib/code/node_modules.asar/vscode-proxy-agent/out/index.js:159:16)
+	at /usr/lib/code/node_modules.asar/vscode-proxy-agent/out/index.js:107:13
+	at /usr/lib/code/node_modules.asar/vscode-proxy-agent/out/index.js:335:13
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[2021-09-14 11:52:57.865] [exthost] [info] exiting with code 0

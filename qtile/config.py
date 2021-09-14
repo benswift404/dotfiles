@@ -137,14 +137,16 @@ screens = [
                 widget.TextBox("歡迎回來, 班傑明",
                     name="name",
                     background="#bd93f9",
-                    padding=50,
+                    padding=40,
                     ),
                 widget.Sep(
                     linewidth=0,
                     padding=24
                 ),
                 # widget.CurrentLayout(),
-                widget.WindowName(),
+                widget.WindowName(
+                    font="Source Xode Pro Bold",
+                ),
                 # widget.Chord(
                 #     chords_colors={
                 #         'launch': ("#ff0000", "#ffffff"),
@@ -242,6 +244,7 @@ screens = [
                     fontsize=30,
                     background="#44475a",
                     foreground="#8be9fd",
+                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(terminal + ' -e python3 development/arch.py')},
                 ),
                 widget.TextBox(
                     "",
