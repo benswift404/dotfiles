@@ -225,7 +225,7 @@ screens = [
                     padding=15
                 ),
                 widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p',
+                widget.Clock(format='%m-%d-%Y %a %I:%M %p',
                     font="Source Code Pro Bold",
                     padding=6,
                     background="#ff5555",

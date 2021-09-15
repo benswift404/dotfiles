@@ -9,6 +9,9 @@
                 "folderUri": "file:///home/ben/.config/qtile"
             },
             {
+                "fileUri": "file:///home/ben/.config/qtile/config.py"
+            },
+            {
                 "fileUri": "file:///home/ben/development/app.py"
             },
             {
@@ -60,7 +63,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/ben/development",
                                         "external": "file:///home/ben/development",
                                         "path": "/home/ben/development",
                                         "scheme": "file"
@@ -81,6 +83,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ben/.config/qtile/config.py",
+                                        "path": "/home/ben/.config/qtile/config.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/qtile/config.py"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -225,7 +238,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -421,8 +435,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -625,8 +638,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1517,17 +1529,38 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/ben/development",
-            "backupPath": "/home/ben/.config/Code - OSS/Backups/1661bc7cf8551a54f61516eb3e703e9d",
+            "backupPath": "/home/ben/.config/Code - OSS/Backups/1631711960893",
             "uiState": {
                 "mode": 1,
-                "x": 13,
-                "y": 59,
-                "width": 1126,
-                "height": 965
+                "x": 8,
+                "y": 54,
+                "width": 1904,
+                "height": 975
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/ben/development",
+                "backupPath": "/home/ben/.config/Code - OSS/Backups/1661bc7cf8551a54f61516eb3e703e9d",
+                "uiState": {
+                    "mode": 1,
+                    "x": 13,
+                    "y": 59,
+                    "width": 1126,
+                    "height": 965
+                }
+            },
+            {
+                "backupPath": "/home/ben/.config/Code - OSS/Backups/1631711960893",
+                "uiState": {
+                    "mode": 1,
+                    "x": 8,
+                    "y": 54,
+                    "width": 1904,
+                    "height": 975
+                }
+            }
+        ]
     },
-    "pickerWorkingDir": "/home/ben"
+    "pickerWorkingDir": "/home/ben/.config/qtile"
 }
