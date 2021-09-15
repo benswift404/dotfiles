@@ -3,7 +3,13 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/ben/development"
+            },
+            {
                 "folderUri": "file:///home/ben/.config/qtile"
+            },
+            {
+                "fileUri": "file:///home/ben/development/app.py"
             },
             {
                 "fileUri": "file:///home/ben/.config/picom/picom.conf"
@@ -54,7 +60,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/ben/.config/qtile",
+                                        "fsPath": "/home/ben/development",
+                                        "external": "file:///home/ben/development",
+                                        "path": "/home/ben/development",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/development"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/ben/.config/qtile",
                                         "path": "/home/ben/.config/qtile",
                                         "scheme": "file"
@@ -69,6 +86,18 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/ben/development/app.py",
+                                        "path": "/home/ben/development/app.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/development/app.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ben/.config/picom/picom.conf",
                                         "path": "/home/ben/.config/picom/picom.conf",
                                         "scheme": "file"
                                     },
@@ -596,7 +625,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1480,24 +1510,24 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/ben/.config/qtile",
-            "backupPath": "/home/ben/.config/Code - OSS/Backups/ab3f0b55089d138d5f8cbf35831c2d84",
+            "folder": "file:///home/ben/development",
+            "backupPath": "/home/ben/.config/Code - OSS/Backups/1661bc7cf8551a54f61516eb3e703e9d",
             "uiState": {
                 "mode": 1,
-                "x": 8,
-                "y": 54,
-                "width": 1904,
-                "height": 975
+                "x": 13,
+                "y": 59,
+                "width": 1126,
+                "height": 965
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/ben/.config/picom"
+    "pickerWorkingDir": "/home/ben"
 }

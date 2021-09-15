@@ -136,6 +136,7 @@ screens = [
             [
                 widget.TextBox("歡迎回來, 班傑明",
                     name="name",
+                    font="Source Han Sans TW Bold",
                     background="#bd93f9",
                     padding=40,
                     ),

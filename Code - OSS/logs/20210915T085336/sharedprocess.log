@@ -1,0 +1,6 @@
+[2021-09-15 08:53:39.295] [sharedprocess] [info] Deleted from disk dracula-theme.theme-dracula /home/ben/.vscode-oss/extensions/dracula-theme.theme-dracula-2.23.1
+[2021-09-15 08:53:49.123] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-09-15 08:53:49.124] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210914T091958'
+[2021-09-15 08:54:09.119] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-09-15 08:54:09.120] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-09-15 08:54:19.119] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
