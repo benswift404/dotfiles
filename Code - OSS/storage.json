@@ -3,10 +3,10 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/ben/development"
+                "folderUri": "file:///home/ben/.config/qtile"
             },
             {
-                "folderUri": "file:///home/ben/.config/qtile"
+                "folderUri": "file:///home/ben/development"
             },
             {
                 "fileUri": "file:///home/ben/.config/qtile/config.py"
@@ -63,23 +63,24 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ben/development",
-                                        "path": "/home/ben/development",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/development"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
+                                        "fsPath": "/home/ben/.config/qtile",
                                         "external": "file:///home/ben/.config/qtile",
                                         "path": "/home/ben/.config/qtile",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config/qtile"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ben/development",
+                                        "path": "/home/ben/development",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/development"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -238,8 +239,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1530,7 +1530,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/ben/.config/Code - OSS/Backups/1631717765144",
+            "folder": "file:///home/ben/.config/qtile",
+            "backupPath": "/home/ben/.config/Code - OSS/Backups/ab3f0b55089d138d5f8cbf35831c2d84",
             "uiState": {
                 "mode": 1,
                 "x": 8,
@@ -1539,29 +1540,7 @@
                 "height": 965
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/ben/development",
-                "backupPath": "/home/ben/.config/Code - OSS/Backups/1661bc7cf8551a54f61516eb3e703e9d",
-                "uiState": {
-                    "mode": 1,
-                    "x": 13,
-                    "y": 59,
-                    "width": 934,
-                    "height": 965
-                }
-            },
-            {
-                "backupPath": "/home/ben/.config/Code - OSS/Backups/1631717765144",
-                "uiState": {
-                    "mode": 1,
-                    "x": 8,
-                    "y": 54,
-                    "width": 934,
-                    "height": 965
-                }
-            }
-        ]
+        "openedWindows": []
     },
-    "pickerWorkingDir": "/home/ben/.config/qtile"
+    "pickerWorkingDir": "/home/ben/.config"
 }

@@ -248,8 +248,8 @@ screens = [
                     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(terminal + ' -e python3 development/arch.py')},
                 ),
                 widget.TextBox(
-                    "爵",
-                    name="brave",
+                    "",
+                    name="firefox",
                     padding=10,
                     fontsize=30,
                     #background="#ffb86c",

@@ -33,3 +33,6 @@
 [2021-09-15 08:54:13.559] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
 [2021-09-15 08:54:13.561] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
 [2021-09-15 08:54:13.561] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-09-15 11:46:18.001] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-15 11:46:18.002] [exthost] [info] Lock '/home/ben/.config/Code - OSS/User/workspaceStorage/8573b0ae59438a1ade2c8aedb381977e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-15 11:46:19.015] [exthost] [info] exiting with code 0
