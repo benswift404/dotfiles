@@ -254,7 +254,7 @@ screens = [
                     fontsize=30,
                     #background="#ffb86c",
                     foreground="#ffb86c",
-                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('brave')},
+                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox')},
                 ),
                 widget.TextBox(
                     "",
