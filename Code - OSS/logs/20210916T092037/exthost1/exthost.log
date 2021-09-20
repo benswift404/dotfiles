@@ -40,3 +40,7 @@
 [2021-09-16 09:21:47.669] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
 [2021-09-16 09:21:55.071] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
 [2021-09-16 09:23:12.076] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 541
+[2021-09-16 11:52:18.772] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 356
+[2021-09-16 11:52:18.972] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-16 11:52:18.973] [exthost] [info] Lock '/home/ben/.config/Code - OSS/User/workspaceStorage/24a486e518795aa78b50f3bef6bd1d33/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-16 11:52:19.981] [exthost] [info] exiting with code 0
