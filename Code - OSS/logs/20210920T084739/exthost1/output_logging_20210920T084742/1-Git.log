@@ -21,3 +21,24 @@ Open repository: /home/ben/.config
 > git ls-files --stage -- /home/ben/.config/qtile/config.py
 > git cat-file -s 467b4dae887924847a712485eee31cb3ca0ab49d
 > git show --textconv :qtile/config.py
+> git status -z -u
+> git ls-files --stage -- /home/ben/.config/qtile/config.py
+> git cat-file -s 467b4dae887924847a712485eee31cb3ca0ab49d
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git show --textconv :qtile/config.py
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
